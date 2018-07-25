@@ -6,7 +6,7 @@
 
     <com.example.xyzreader.ui.ObservableScrollView
         android:id="@+id/scrollview"
-        android:elevation="2dp"
+        android:elevation="@dimen/cardview_default_elevation"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -16,6 +16,7 @@
 
             <FrameLayout
                 android:id="@+id/photo_container"
+                android:elevation="0dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/photo_placeholder">
@@ -44,6 +45,7 @@
 
                 <LinearLayout
                     android:id="@+id/meta_bar"
+                    android:elevation="4dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#333"
