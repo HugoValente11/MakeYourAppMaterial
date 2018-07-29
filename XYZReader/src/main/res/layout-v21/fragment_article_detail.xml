@@ -12,7 +12,7 @@
         android:layout_height="300dp"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
         android:fitsSystemWindows="true"
-        android:elevation="4dp"
+        android:elevation="@dimen/dimen_app_bar"
 
         >
 
