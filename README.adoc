@@ -1,4 +1,4 @@
-# Make Your App Material
+# Udacity Nanodegree Project Make Your App Material
 
 
 ## Project Overview
